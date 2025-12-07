@@ -107,11 +107,11 @@ def main():
         print(f"⚠️ Error from {type(e).__name__}: {e}")
         exit(1)
 
-    print("=== ARTICLE 1 ===")
+    print("=== Memoir 1 ===")
     print("Existing:", measure(text1, existing_sub1))
     print("Fake:", measure(text1, fake_sub1))
 
-    print("\n=== ARTICLE 2 ===")
+    print("\n=== Memoir 2 ===")
     print("Existing:", measure(text2, existing_sub2))
     print("Fake:", measure(text2, fake_sub2))
 
